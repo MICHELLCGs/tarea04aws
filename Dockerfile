@@ -15,5 +15,4 @@ RUN npm install
 
 EXPOSE 9000
 
-# Cambia el comando CMD para iniciar la aplicación como lo haces con npm start
 CMD ["npm", "start"]
