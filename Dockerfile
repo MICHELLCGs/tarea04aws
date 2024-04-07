@@ -2,14 +2,7 @@ FROM node:20
 
 WORKDIR /app
 
-COPY bin/ ./ 
-COPY package*.json ./
-COPY app.js ./
-COPY public/stylesheets/ ./public/stylesheets/
-COPY controllers/ ./controllers/
-COPY models/ ./models/
-COPY routes/ ./routes/
-COPY views/ ./views/
+COPY . .
 
 RUN npm install
 
