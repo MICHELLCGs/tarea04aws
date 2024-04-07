@@ -15,7 +15,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-var mongoDB = 'mongodb://18.231.29.159:27017/myappdb';
+var mongoDB = 'mongodb://18.231.29.159:27117/myappdb';
 mongoose.set('strictQuery', false);
 mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology:true});
 
